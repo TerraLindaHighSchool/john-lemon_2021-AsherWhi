@@ -10,12 +10,12 @@ public class PlayerMovement : MonoBehaviour
     private Quaternion rotation;
     private bool isWalking;
 
-    [SerializeField] private float turn speed = 20f;
+    [SerializeField] private float turnSpeed = 20f;
 
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
         rotation = Quaternion.identity;
     }
 
