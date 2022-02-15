@@ -779,6 +779,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8959538bdcf098842a683dc9176409be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeDuration: 1
+  displayImageDuration: 1
+  player: {fileID: 7534473351792024213}
+  exitBackgroundImageCanvasGroup: {fileID: 1365040414}
 --- !u!65 &1664127225
 BoxCollider:
   m_ObjectHideFlags: 0
