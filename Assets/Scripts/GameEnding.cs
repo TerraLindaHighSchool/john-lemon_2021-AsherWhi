@@ -18,6 +18,7 @@ public class GameEnding : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("GameEnding:21 In Trigger");
         if (other.gameObject == player)
         {
             m_IsPlayerAtExit = true;
